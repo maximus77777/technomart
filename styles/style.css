@@ -52,6 +52,16 @@
        url("../fonts/cuprumitalic.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Myriad Pro";
+  font-weight: 400;
+  font-style: normal;
+
+  src: url("../fonts/notosanspalmyrene-regular.woff2") format("woff2"),
+       url("../fonts/notosanspalmyrene-regular.woff") format("woff");
+}
+
+
 /*Color*/
 :root {
   --light-white: #f2f2f2;
