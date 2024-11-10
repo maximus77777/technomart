@@ -1972,6 +1972,54 @@ img {
   border-bottom: 1px solid var(--light_4-grey);
 }
 
+.input-list .input-radio {
+  margin-bottom: 59px;
+  border-bottom: 1px solid var(--transparent);
+}
+
+.input-checkbox label,
+.input-radio label {
+  padding-left: 34px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+.input-checkbox legend {
+  margin-bottom: 13px;
+}
+
+.input-checkbox .input-container,
+.input-radio .input-container {
+  margin-bottom: 20px;
+}
+
+.input-checkbox .input-container:last-child {
+  margin-bottom: 23px;
+}
+
+.input-radio legend {
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.input-list .input-submit {
+  width: 140px;
+
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  color: var(--basic-black);
+
+  background-color: var(--transparent);
+
+  border: 1px solid var(--light_4-grey);
+  border-radius: 3px;
+}
+
+
+
 /*Подвал*/
 
 .page-footer {
