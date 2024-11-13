@@ -52,13 +52,19 @@
           <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
         <div class="login-link-wrapper second-link-wrapper">
-          <div class="login-container login-container_1">
-            <a class="login-elem login-elem_1 login-initials" href="blank.html">Равшан Джамшутович</a>
-          </div>
-          <div class="login-container login-container_2">
-            <a class="login-link login-orders" href="blank.html">Мои заказы</a>
-            <a class="login-link login-link_1 login-office" href="blank.html">Личный кабинет</a>
-          </div>
+          <ul class="login-container login-container_1">
+            <li class="login-element-container">
+              <a class="login-elem login-elem_1 login-initials" href="blank.html">Равшан Джамшутович</a>
+            </li>
+          </ul>
+          <ul class="login-container login-container_2">
+            <li class="login-column">
+              <a class="login-link login-orders" href="blank.html">Мои заказы</a>
+            </li>
+            <li class="login-column">
+              <a class="login-link login-link_1 login-office" href="blank.html">Личный кабинет</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -89,7 +95,7 @@
     </nav>
   </header>
 
-  <main>
+  <main class="main-section">
     <section class="breadcrumbs container">
       <h2>Перфораторы</h2>
       <ul class="list-breadcrumbs">
@@ -117,8 +123,8 @@
               <div class="scales">
                 <div class="scale">
                   <div class="toggles">
-                    <div class="toggle left-toggle"></div>
-                    <div class="toggle right-toggle"></div>
+                    <div class="toggle left-toggle" tabindex="0"></div>
+                    <div class="toggle right-toggle" tabindex="0"></div>
                   </div>
                 </div>
               </div>
@@ -135,36 +141,36 @@
           <fieldset class="input-elem input-checkbox">
             <legend>Производители:</legend>
             <div class="input-container">
-              <input class="visually-hidden" type="checkbox" name="bosch" id="bosch" checked>
-              <label for="bosch">Bosch</label>
+              <input class="visually-hidden" type="checkbox" name="bosch" id="bosch" tabindex="-1" checked>
+              <label for="bosch" tabindex="0">Bosch</label>
             </div>
             <div class="input-container">
-              <input class="visually-hidden" type="checkbox" name="interskol" id="interskol">
-              <label for="interskol">Интерскол</label>
+              <input class="visually-hidden" type="checkbox" name="interskol" id="interskol" tabindex="-1">
+              <label for="interskol" tabindex="0">Интерскол</label>
             </div>
             <div class="input-container">
-              <input class="visually-hidden" type="checkbox" name="makita" id="makita" checked>
-              <label for="makita">Makita</label>
+              <input class="visually-hidden" type="checkbox" name="makita" id="makita" tabindex="-1" checked>
+              <label for="makita" tabindex="0">Makita</label>
             </div>
             <div class="input-container">
-              <input class="visually-hidden" type="checkbox" name="dewalt" id="dewalt">
-              <label for="dewalt">Dewalt</label>
+              <input class="visually-hidden" type="checkbox" name="dewalt" id="dewalt" tabindex="-1">
+              <label for="dewalt" tabindex="0">Dewalt</label>
             </div>
             <div class="input-container">
-              <input class="visually-hidden" type="checkbox" name="hitachi" id="hitachi">
-              <label for="hitachi">Hitachi</label>
+              <input class="visually-hidden" type="checkbox" name="hitachi" id="hitachi" tabindex="-1">
+              <label for="hitachi" tabindex="0">Hitachi</label>
             </div>
           </fieldset>
 
           <fieldset class="input-elem input-radio">
             <legend>Питание:</legend>
             <div class="input-container">
-              <input class="visually-hidden" type="radio" name="power" id="battery-power" checked>
-              <label for="battery-power">Аккумуляторные</label>
+              <input class="visually-hidden" type="radio" name="power" id="battery-power" tabindex="-1" checked>
+              <label for="battery-power" tabindex="0">Аккумуляторные</label>
             </div>
             <div class="input-container">
-              <input class="visually-hidden" type="radio" name="power" id="mains-power">
-              <label for="mains-power">Сетевые</label>
+              <input class="visually-hidden" type="radio" name="power" id="mains-power" tabindex="-1">
+              <label for="mains-power" tabindex="0">Сетевые</label>
             </div>
           </fieldset>
           <button class="btn input-submit" type="submit">Показать</button>
@@ -177,7 +183,7 @@
           <h3>Сортировка:</h3>
           <ul class="sort-list">
             <li class="sort-elem">
-              <a class="active" href="blank.html">По цене</a>
+              <a class="sort-active" href="blank.html">По цене</a>
             </li>
             <li class="sort-elem">
               <a href="blank.html">По типу</a>
@@ -188,7 +194,7 @@
           </ul>
           <ul class="arrows">
             <li class="arrow-elem">
-              <a class="active" href="blank.html">Левая стрелка</a>
+              <a class="arrow-active" href="blank.html">Левая стрелка</a>
             </li>
             <li class="arrow-elem">
               <a href="blank.html">Правая стрелка</a>
