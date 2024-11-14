@@ -2329,6 +2329,38 @@ img {
   background-position: -22px 0;
 }
 
+/*Пагинация*/
+
+.pagination .pagination-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(38px, min-content));
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.pagination-list .pagination-elem {
+  min-width: 38px;
+  min-height: 38px;
+
+  box-sizing: border-box;
+}
+
+.pagination-elem a {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+  min-height: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /*Подвал*/
 
 .page-footer {
