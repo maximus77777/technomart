@@ -326,7 +326,7 @@
           <h2 class="visually-hidden">Пагинация</h2>
           <ul class="pagination-list">
             <li class="pagination-elem">
-              <a class="active" href="blank.html">1</a>
+              <a class="pagination-active" href="blank.html">1</a>
             </li>
             <li class="pagination-elem">
               <a href="blank.html">2</a>
@@ -341,20 +341,22 @@
         </section>
       </section>
     </div>
-    <div>
-      <p>
-        Пара слов о перфораторах
-      </p>
-      <p>
-        Перфоратор — универсальный строительный инструмент.
-        Предназначен для сверления и долбления отверстий в
-        кирпиче, бетоне и камне. Существуют электромеханические
-        и пневматические перфораторы. Современные модели могут
-        выполнять функции дрели, шуруповерта и отбойного молотка.
-        В ассортиментном ряду есть выбор «трехрежимников»: в
-        одном устройстве будут совмещены отбойный молоток и
-        ударная дрель.
-      </p>
+    <div class="text-words">
+      <div class="text-wrapper container">
+        <p class="text-header">
+          Пара слов о перфор<span class="header-spacing">аторах</span>
+        </p>
+        <p class="text">
+          Перфоратор – универсальный строительный инструмент.
+          Предназначен для сверления <span>и долбления отверстий в
+          кирпиче, бетоне и камне.</span><br> Существуют <span class="word_2">электромеханические
+          и пневматические перфораторы. Современные модели могут
+          выполнять функции дрели, шуруповерта и отбойного молотка.
+          В </span>ассортиментном ряду есть выбор «трехрежимников»: в
+          одном устройстве будут совмещены отбойный молоток и
+          ударная дрель.
+        </p>
+      </div>
     </div>
   </main>
 
@@ -439,6 +441,17 @@
       </div>
     </div>
   </footer>
+  <section class="popup popup-cart">
+    <p>Товар добавлен в корзину!</p>
+    <div class="button-wrapper">
+      <a class="btn popup-elem popup-order" href="blank.html">Оформить заказ</a>
+      <button class="btn popup-link popup-elem popup-buy" type="button">Продолжить покупки</button>
+      <a class="btn popup-elem popup-order" href="blank.html">Оформить заказ</a>
+      <button class="btn popup-link popup-elem popup-buy" type="button">Продолжить покупки</button>
+      <a class="btn popup-elem popup-order" href="blank.html">Оформить заказ</a>
+    </div>
+    <button class="btn-close_popup" type="button">Закрыть</button>
+  </section>
   <script src="js/script.js"></script>
 </body>
 </html>
