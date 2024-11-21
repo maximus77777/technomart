@@ -119,17 +119,17 @@
             </div>
           </li>
           <li class="elem-advantage elem-slider">
-            <div class="slide slide-active">
+            <div class="slide">
               <h3>Перфораторы</h3>
               <p>Настоящие мужские игрушки</p>
-              <a class="btn btn-slide" href="blank.html">Открыть каталог</a>
-              <img src="../img/slide_1.jpg" alt="Изображение человека с перфоратором">
+              <a class="btn btn-slide" href="catalog.html">Открыть каталог</a>
+              <img src="../img/slide_1.jpg" width="620" height="266" alt="Изображение человека с перфоратором">
             </div>
-            <div class="slide">
+            <div class="slide slide-active">
               <h3>Дрели</h3>
               <p>Соседям на радость!</p>
-              <a class="btn btn-slide" href="blank.html">Открыть каталог</a>
-              <img src="../img/slide_2.jpg" alt="Изображение человека с дрелью">
+              <a class="btn btn-slide" href="catalog.html">Открыть каталог</a>
+              <img src="../img/slide_2.jpg" width="620" height="266" alt="Изображение человека с дрелью">
             </div>
             <div class="control-arrows">
               <button class="btn-arrow left-arrow" type="button">Левая стрелка</button>
@@ -347,8 +347,11 @@
               Вы можете забрать товар сами,
               заехав в наш офис:
             </p>
-            <img src="../img/minimap.png" width="300" height="158"
+            <a class="link-button" href="#">
+              <img src="../img/minimap.png" width="300" height="158"
             alt="Карта с адресом г. Санкт-Петербург, ул. Б. Конюшенная, д.">
+            </a>
+
             <a class="btn btn-info-contacts" href="#">Заблудились? Напишите нам!</a>
           </section>
         </div>
@@ -440,7 +443,7 @@
       <div class="map-wrapper">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257198264!2d30.320472477472418!3d59.93871916209343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1715747619897!5m2!1sru!2sru" width="940" height="446" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <img src="../img/big-map.png" width="940" height="446" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-        <button class="btn-map" type="button">Закрыть</button>
+        <button class="btn-map close-show" type="button">Закрыть</button>
       </div>
     </section>
     <section class="popup">
@@ -463,7 +466,7 @@
           <button class="btn btn-popup" type="submit">Отправить</button>
         </div>
       </form>
-      <button class="btn-close_popup" type="button">Закрыть</button>
+      <button class="btn-close_popup close-show" type="button">Закрыть</button>
     </section>
     <script src="js/script.js"></script>
   </body>
